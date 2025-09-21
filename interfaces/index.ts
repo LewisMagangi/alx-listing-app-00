@@ -21,20 +21,25 @@ export interface ButtonProps {
   type?: 'button' | 'submit' | 'reset';
 }
 
-// Property listing interface
+
+// Property listing interface for PROPERTYLISTINGSAMPLE
 export interface PropertyProps {
-  id: string;
-  title: string;
-  description: string;
-  price: number;
-  location: string;
-  image: string;
-  rating: number;
-  amenities: string[];
-  host: {
-    name: string;
-    avatar: string;
+  name: string;
+  address: {
+    state: string;
+    city: string;
+    country: string;
   };
+  rating: number;
+  category: string[];
+  price: number;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
+  image: string;
+  discount: string;
 }
 
 // API Response interface
