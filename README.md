@@ -5,6 +5,7 @@ A modern Airbnb clone built with Next.js, TypeScript, and TailwindCSS. This proj
 ## Project Goals
 
 The ALX Listing App aims to:
+
 - Create a responsive and user-friendly property listing interface
 - Implement modern web development practices with TypeScript
 - Build reusable and modular components for scalability
@@ -13,7 +14,7 @@ The ALX Listing App aims to:
 
 ## Project Structure
 
-```
+``` text
 alx-listing-app/
 ├── components/           # Reusable UI components
 │   └── common/          # Common components used across the app
@@ -63,22 +64,25 @@ alx-listing-app/
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd alx-listing-app
 ```
 
-2. Install dependencies:
+2.Install dependencies:
+
 ```bash
 npm install
 ```
 
-3. Run the development server:
+3.Run the development server:
+
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+4.Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ### Available Scripts
 
