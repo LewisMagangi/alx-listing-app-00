@@ -1,4 +1,4 @@
-# ALX Listing App 00
+# ALX Listing App 01
 
 A modern Airbnb clone built with Next.js, TypeScript, and TailwindCSS. This project creates a scalable foundation for a property listing platform with reusable components and clean architecture.
 
